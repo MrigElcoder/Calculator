@@ -5,10 +5,10 @@
 	box-sizing: border-box;
 }
 html{
-	font-family: 'Montserrat';
+	font-family: "Montserrat";
 }
 section{
-	background-color: rgb(18,26,31); 
+	background-color: rgb(201,76,76);
 	min-height: 100vh;
 	width: 100%;
 	display: flex;
@@ -51,12 +51,12 @@ section{
  opacity: .4;
 }
 .all_button{
- color: whitesmoke;
+ color: yellow;
  display: grid;
  grid-template: repeat(4,1fr)/repeat(4,1fr);
 }
 .button{
-	border: .5px solid rgba(92,92,92,0.137);
+	border: .5px solid rgba(0,128,0,0.3);
 	height: 100px;
 	width: 100%;
 	display: flex;
